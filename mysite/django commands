@@ -1,0 +1,13 @@
+python3 -m django startproject mysite //creating a project
+python3 manage.py runserver
+python3 manage.py startapp Home//starting a app in project
+create and add path in url.py of app
+render templates or give httpresponse to the request in views.py of app
+after creating forms create models(database) in model.py of app
+frpm app.model import model in admin.py of app
+register model in admin.py
+run python3 manage.py makemigrations//used to save all the changes done in models
+run python3 manage.py migrate to implement the changes
+in app.py copy the name of classes(apps) and add it in settings in installed app as ('createdappname.apps.copiedClass_name')
+
+
